@@ -118,15 +118,15 @@ nav a{
     margin:100px auto;
 }
 
-.bloc .image{
+/* .bloc .image{
     flex:1;
     display:grid;
     grid-template-columns:repeat(2, 1fr);
     gap:15px;
-}
+} */
 
 .bloc .image img{
-    width:100%;
+    width:90%;
     height:200px;
     object-fit:cover;
     border-radius:12px;
@@ -251,4 +251,10 @@ footer{
     background:#1b1b1b;
     border-left:5px solid #8b0000;
     border-radius:15px;
+}
+
+.column{
+    display:flex;
+    
+
 }
